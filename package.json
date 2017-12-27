@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Glenn Lanzer <lanzertrey@gmail.com>",
   "license": "MIT",
+  "browserslist": ["> 1%"],
   "scripts": {
     "start": "babel-node src",
     "test": "eslint src"
