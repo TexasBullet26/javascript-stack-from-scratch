@@ -1,5 +1,9 @@
+// @flow
+
 class Dog {
-  constructor(name) {
+  name: string
+
+  constructor(name: string) {
     this.name = name
   }
 
@@ -8,4 +12,4 @@ class Dog {
   }
 }
 
-module.exports = Dog
+export default Dog
